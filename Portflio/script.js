@@ -56,7 +56,7 @@ if (form) {
 
     const data = new FormData(form);
     try {
-      const response = await fetch("https://formspree.io/f/yourFormID", {
+      const response = await fetch("https://https://formspree.io/f/xvgbvvkj", {
         method: "POST",
         body: data,
         headers: { Accept: "application/json" },
@@ -73,3 +73,4 @@ if (form) {
     }
   });
 }
+
