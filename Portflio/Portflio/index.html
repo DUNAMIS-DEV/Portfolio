@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER / NAVBAR ===== -->
+  <header>
+    <nav>
+      <h1 class="logo">Your<span style="color:#38bdf8;">Name</span></h1>
+      <!-- Hamburger button -->
+      <div class="hamburger" id="hamburger">
+        ☰
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="hero" class="hero">
+    <!-- Profile picture -->
+    <img src="static/images/profile.jpg" alt="Your Picture" class="profile-pic" />
+    <h2>Hello, I'm <span>Your Name</span></h2>
+    <p>A passionate web developer who loves creating modern, responsive websites and apps.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I’m a developer with experience in HTML, CSS, JavaScript, and Python (Flask).
+      I enjoy transforming ideas into sleek, functional digital products.  
+      When I’m not coding, I’m learning new technologies and improving my skills.
+    </p>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>
+        This responsive portfolio you’re viewing, built with HTML, CSS, and JavaScript, 
+        and deployed on Vercel.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Flask Blog App</h3>
+      <p>
+        A simple blog platform built with Python Flask and SQLite.  
+        It supports user authentication and CRUD operations for posts.
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Weather Dashboard</h3>
+      <p>
+        A web app that fetches live weather data using an API and 
+        displays it in a user-friendly dashboard with charts.
+      </p>
+    </div>
+  </section>
+
+<!-- ===== CONTACT SECTION ===== -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form" class="contact-form">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="_replyto" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <p id="form-status" class="form-status"></p>
+</section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>&copy; 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <!-- ===== SCRIPT ===== -->
+  <script src="script.js" ></script>
+</body>
+</html>
